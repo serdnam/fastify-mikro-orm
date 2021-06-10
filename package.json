@@ -1,0 +1,24 @@
+{
+  "name": "fastify-mikro-orm",
+  "version": "1.0.0",
+  "description": "Fastify Mikro-ORM plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serdnam/fastify-mikro-orm.git"
+  },
+  "keywords": [
+    "fastify",
+    "mikro-orm",
+    "database"
+  ],
+  "author": "Andrés Mármol - @serdnam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serdnam/fastify-mikro-orm/issues"
+  },
+  "homepage": "https://github.com/serdnam/fastify-mikro-orm#readme"
+}

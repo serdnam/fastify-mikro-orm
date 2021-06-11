@@ -2,11 +2,17 @@
   "name": "fastify-mikro-orm",
   "version": "1.0.0",
   "description": "Fastify Mikro-ORM plugin",
-  "main": "index.js",
+  "main": "build/index.js",
+  "typings": "./build/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
     "postgres": "docker run -p 5432:5432 -e POSTGRES_PASSWORD=masterkey postgres:13",
     "test": "tap --ts"
   },
+  "files": [
+    "build/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/serdnam/fastify-mikro-orm.git"

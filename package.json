@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fastify Mikro-ORM plugin",
   "main": "build/index.js",
-  "typings": "./build/index.d.ts",
+  "typings": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build",

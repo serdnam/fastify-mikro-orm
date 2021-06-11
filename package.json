@@ -4,6 +4,7 @@
   "description": "Fastify Mikro-ORM plugin",
   "main": "index.js",
   "scripts": {
+    "postgres": "docker run -p 5432:5432 -e POSTGRES_PASSWORD=masterkey postgres:13",
     "test": "tap --ts"
   },
   "repository": {

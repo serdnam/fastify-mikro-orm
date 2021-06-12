@@ -36,3 +36,8 @@ fastify.listen(3000, err => {
 })
 
 ```
+
+## Todo
+
+- [ ] Implement request isolation option. 
+

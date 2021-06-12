@@ -1,6 +1,6 @@
 {
   "name": "fastify-mikro-orm",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Fastify Mikro-ORM plugin",
   "main": "build/index.js",
   "typings": "build/index.d.ts",

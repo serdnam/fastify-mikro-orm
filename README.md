@@ -3,6 +3,12 @@ Fastify MikroORM plugin, which decorates the Fastify object with a MikroORM conn
 
 This plugin uses the official [MikroORM](https://github.com/mikro-orm/mikro-orm) module.
 
+## Install
+
+```
+npm i fastify-mikro-orm
+```
+
 ## Usage
 
 Once you have setup the schema through the MikroORM CLI, just register the plugin.
@@ -71,7 +77,6 @@ fastify.listen(3000, err => {
 ```
 
 
-## Todo
+## License
 
-- [X] Implement request isolation option. 
-
+[MIT](./LICENSE)

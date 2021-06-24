@@ -6,7 +6,7 @@
   "typings": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "postgres": "docker run -p 5432:5432 -e POSTGRES_PASSWORD=masterkey postgres:13",
     "test": "tap --ts"
   },

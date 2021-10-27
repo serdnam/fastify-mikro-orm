@@ -29,26 +29,26 @@
   },
   "homepage": "https://github.com/serdnam/fastify-mikro-orm#readme",
   "devDependencies": {
-    "@types/tap": "^15.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.26.1",
-    "@typescript-eslint/parser": "^4.26.1",
-    "eslint": "^7.28.0",
+    "@types/tap": "^15.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "fastify": "^3.17.0",
-    "tap": "^15.0.9",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.2"
+    "eslint-plugin-promise": "^5.1.1",
+    "fastify": "^3.22.1",
+    "tap": "^15.0.10",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@mikro-orm/core": "^4.5.6",
-    "@mikro-orm/mariadb": "^4.5.6",
-    "@mikro-orm/mongodb": "^4.5.6",
-    "@mikro-orm/mysql": "^4.5.6",
-    "@mikro-orm/postgresql": "^4.5.6",
-    "@mikro-orm/sqlite": "^4.5.6",
+    "@mikro-orm/core": "^4.5.9",
+    "@mikro-orm/mariadb": "^4.5.9",
+    "@mikro-orm/mongodb": "^4.5.9",
+    "@mikro-orm/mysql": "^4.5.9",
+    "@mikro-orm/postgresql": "^4.5.9",
+    "@mikro-orm/sqlite": "^4.5.9",
     "fastify-plugin": "^3.0.0"
   }
 }
